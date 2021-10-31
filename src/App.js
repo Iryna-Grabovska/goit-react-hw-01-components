@@ -1,4 +1,4 @@
-import './App.css';
+
 import Profile from "./components/Profile";
 import user from './data/user.json';
 
@@ -27,7 +27,7 @@ export default function App() {
       
       <FriendList friends={friends} />
 
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
 
 
  

@@ -16,16 +16,16 @@ import s from './Profile.module.css'
     <p className={s.location}>{location}</p>
   </div>
 
-  <ul className={s.stats}>
-    <li>
+  <ul className={s.statsList}>
+    <li className={s.statsItem}>
       <span className={s.label}>Followers</span>
           <span className={s.quantity}>{followers}</span>
     </li>
-    <li>
+    <li className={s.statsItem}>
       <span className={s.label}>Views</span>
       <span className={s.quantity}>{views}</span>
     </li>
-    <li>
+    <li className={s.statsItem}>
       <span className={s.label}>Likes</span>
       <span className={s.quantity}>{likes}</span>
     </li>

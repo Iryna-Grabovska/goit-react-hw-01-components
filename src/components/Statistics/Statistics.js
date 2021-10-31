@@ -8,12 +8,11 @@ function Statistics({title, stats }) {
       <ul className={s.statList}>
         {
           stats.map(({ id, label, percentage }) =>
-              //  console.log(id, label, percentage)
 
           (
-<li  className={s.item} key={id}> 
-            <span className={s.label}>{label}</span>
-            <span className={s.percentage}>{percentage}%</span>
+<li  className={s.statisticsItem} key={id}> 
+            <span className={s.statisticsLabel}>{label}</span>
+            <span className={s.statisticsPercentage}>{percentage}%</span>
           </li>
         )
         )}
